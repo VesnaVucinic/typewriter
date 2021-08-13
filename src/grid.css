@@ -25,6 +25,7 @@
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
+    z-index: 2;
     /* display: grid; */
     /* grid-template-columns: repeat(3, 1fr); */
     /* grid-template-columns: subgrid;  daje horizontalnu podelu kao redove*/
@@ -48,8 +49,11 @@
     grid-column-start: 1;
     grid-row-start: 2;
     grid-row-end: 4;
+    z-index: 1;
     /* background-color: darkturquoise; */
     /* The item box2 is now overlapping box1, it displays on top as it comes later in the source order. */
 }
+
+
 
 
