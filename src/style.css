@@ -70,3 +70,4 @@ span{animation: blinker 1s linear infinite;}
 @media(max-width:480px){
   #typewriter p{font-size: 1rem;}
 }
+

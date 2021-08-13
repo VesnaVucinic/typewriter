@@ -1,0 +1,50 @@
+
+ * {box-sizing: border-box;}
+
+.wrapper {
+  border: 2px solid chartreuse;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  column-gap: 10px;
+  row-gap: 1em;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: subgrid;  daje horizontalnu podelu kao redove*/
+    border: 1px solid chartreuse;
+    /* column-gap: 5px; */
+}
+
+.nested {
+  border: 2px solid chartreuse;
+  border-radius: 5px;
+  background-color: #dbffe0;
+  padding: 2em;
+    margin: 5px;
+}
+   
+.box2 {
+    grid-column-start: 1;
+    grid-row: 3 / 5;
+    border: 1px solid chartreuse;
+}
+
+.box3 {
+    border: 1px solid chartreuse; 
+}
+
+.box4 {
+    border: 1px solid chartreuse; 
+}
+
+.box5 {
+    border: 1px solid chartreuse; 
+}
